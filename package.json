@@ -1,0 +1,21 @@
+{
+  "name": "create-parcel-app",
+  "version": "1.0.0",
+  "description": "A command line tool to create react app with parcel bundler",
+  "main": "index.js",
+  "bin": {
+    "create-parcel-app": "./generate-parcel-app.js"
+  },
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build index.js"
+  },
+  "author": "Shivam Pawar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.1"
+  }
+}
